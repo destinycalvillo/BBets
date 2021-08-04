@@ -85,6 +85,8 @@ BrLw(numClass = 29, odds = 2.0, countoDo = 637)
 BrLw(numClass = 28, odds = 2.0, countoDo = 637)
 ```
 
+Here we manipulated the fair odds method by using the same model but now changing and testing the class size. Because a class size of 28 produced a longer losing streak, we decided to go with a class size of 29 students to make the 2:1 odds bet fair. 
+
 # In the class and payoff as described what is a 95% confidence interval for Brownlow's earnings?
   
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
