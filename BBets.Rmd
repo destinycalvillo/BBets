@@ -91,7 +91,7 @@ Here we manipulated the fair odds method by using the same model but now changin
   
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
 
-## We will run BrLw at the given conditions 100 times and get a 95% interval
+## We will run BrLw at the given conditions 1000 times and get a 95% interval
 
 ```{r}
 fbank=numeric()
@@ -106,13 +106,19 @@ t.test(fbank)
 favstats(fbank)
 ```
 
-It appears that the average amount that Brownlow was making was about 281.75. The standard deviation of his bets is about 29.47. So, the 95% confidence interval would go either up or down two standard deviations which ultimately leaves us with a minimum of 187 and a maximum of 382.
+After running it 1000 times, the bar-chart we produced showed us that the 95% confidence interval was between 200 and 360 that he makes. The t-test explains more in depth of the bar-chart. It explains that the average amount that Brownlow makes is 281. 75. The standard deviation of his bets is about 29.47. So, the 95% confidence interval would go either up or down two standard deviations which ultimately leaves us with a minimum amount of 187 and a maximum of 382.
 
 ## There are 1000 numbers in the bank - we sort them and take the middle 95%
 
+```{r}
+sortedBank <- sort(fbank)
+low = sortedBank[25]
+high = sortedBank[975]
+```
 
-### The interval is 'r low' to 'r high'
+### The interval is `r low` to `r high`
 
+Brownlow should be expected to end up a low of 223 and a high of 340 if the bets went as described.
 
 # Discussion and Conclusion
 
