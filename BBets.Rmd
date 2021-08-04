@@ -124,3 +124,5 @@ Brownlow should be expected to end up a low of 223 and a high of 340 if the bets
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+Based on the various amounts of tests that we performed, I believe the best way to change his payout based on his profits would break-even is to change his odds since you can't change the class size to 28 and half off a person. The best fair odd amount would be 4.325, the best way to tell this is by looking at a histogram and 0 should be in the middle. Based on our results, the size of his class should be 28 in order to have his current scheme balance at zero profit. 
+
