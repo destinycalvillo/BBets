@@ -118,7 +118,7 @@ high = sortedBank[975]
 
 ### The interval is `r low` to `r high`
 
-Brownlow should be expected to end up a low of 223 and a high of 340 if the bets went as described.
+Brownlow should be expected to end up a low and a high of the above amounts if the bets went as described.
 
 # Discussion and Conclusion
 
